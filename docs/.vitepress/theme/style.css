@@ -1,0 +1,15 @@
+/* 全局样式 - Sticky Footer 效果 */
+
+/* 尝试找到正确的布局容器 */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 让主内容区域扩展 */
+.VPDoc,
+.VPContent,
+main {
+  flex: 1;
+}

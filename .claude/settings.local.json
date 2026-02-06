@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm add:*)",
+      "mcp__web-reader__webReader",
+      "mcp__zread__get_repo_structure",
+      "mcp__web-search-prime__webSearchPrime",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(ls:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}

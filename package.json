@@ -1,0 +1,28 @@
+{
+  "name": "menhulu233.github.io",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && node scripts/deploy.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menhulu233/menhulu233.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menhulu233/menhulu233.github.io/issues"
+  },
+  "homepage": "https://github.com/menhulu233/menhulu233.github.io#readme",
+  "devDependencies": {
+    "@mdit-vue/shared": "^3.0.2",
+    "vitepress": "^1.6.4"
+  }
+}
