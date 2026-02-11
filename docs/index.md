@@ -20,29 +20,32 @@ features:
   - icon:
       light: /logo.svg
       dark: /logo.svg
-    title: 📝 技术文章
-    details: 深入探讨前端开发、后端技术、工程化实践等技术话题，分享实际开发中的经验总结。
-    link: /articles/
+    title: 🤖 AI与Agent开发
+    details: 深入探讨ReAct架构、LLM工具调用、Prompt工程，分享OpenWork项目实战经验。
+    link: /articles/ai-agent/
     linkText: 查看文章
+    
   - icon:
       light: /logo.svg
       dark: /logo.svg
-    title: 🗺️ 学习路线
-    details: 系统整理前端、全栈学习路径，为技术成长提供清晰的方向指引。
-    link: /notes/roadmap/
-    linkText: 查看路线
+    title: ☸️ 云原生与DevOps
+    details: Kubernetes集群搭建、GitOps工作流、CI/CD最佳实践，完整云原生技术栈。
+    link: /articles/cloud-native/
+    linkText: 查看文章
+    
   - icon:
       light: /logo.svg
       dark: /logo.svg
-    title: 📚 读书笔记
-    details: 精读技术经典书籍，提炼核心知识点，帮助你快速掌握关键概念。
-    link: /notes/reading/
-    linkText: 查看笔记
+    title: 💻 桌面应用开发
+    details: Tauri + Rust跨平台开发，从入门到实战，打造高性能桌面工具。
+    link: /articles/desktop/
+    linkText: 查看文章
+    
   - icon:
       light: /logo.svg
       dark: /logo.svg
-    title: 🚀 项目实战
-    details: 分享个人项目开发经验，记录从0到1的完整开发过程。
+    title: 🚀 项目实战复盘
+    details: OpenWork、MBTI系统、AI助手等完整项目复盘，从0到1开发经验。
     link: /notes/projects/
     linkText: 查看项目
 ---

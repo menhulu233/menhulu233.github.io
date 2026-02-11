@@ -20,99 +20,69 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '技术文章',
-        items: [
-          { text: '前端开发', link: '/articles/frontend/' },
-          { text: '后端开发', link: '/articles/backend/' },
-          { text: '工程化', link: '/articles/engineering/' },
-          { text: '全部文章', link: '/articles/' }
-        ]
-      },
-      {
-        text: '学习笔记',
-        items: [
-          { text: '学习路线', link: '/notes/roadmap/' },
-          { text: '读书笔记', link: '/notes/reading/' },
-          { text: '项目实战', link: '/notes/projects/' }
-        ]
-      },
+      { text: '🤖 AI与Agent开发', link: '/articles/ai-agent/' },
+      { text: '☸️ 云原生与DevOps', link: '/articles/cloud-native/' },
+      { text: '💻 桌面应用开发', link: '/articles/desktop/' },
+      { text: '🚀 项目实战复盘', link: '/notes/projects/' },
       { text: '关于我', link: '/about' }
     ],
 
     // 侧边栏配置
     sidebar: {
       '/': [],
-      '/articles/frontend/': [
+      '/articles/ai-agent/': [
         {
-          text: '前端开发',
+          text: 'AI与Agent开发',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'JavaScript', link: '/articles/frontend/javascript/' },
-            { text: 'TypeScript', link: '/articles/frontend/typescript/' },
-            { text: 'Vue.js', link: '/articles/frontend/vue/' },
-            { text: 'React', link: '/articles/frontend/react/' },
-            { text: 'CSS', link: '/articles/frontend/css/' }
+            { text: 'Agent架构设计', link: '/articles/ai-agent/architecture' },
+            { text: 'ReAct循环实现', link: '/articles/ai-agent/react-loop' },
+            { text: 'Prompt工程', link: '/articles/ai-agent/prompt-engineering' },
+            { text: 'LLM工具调用', link: '/articles/ai-agent/tool-calling' },
+            { text: 'Reflection机制', link: '/articles/ai-agent/reflection' },
+            { text: '本地大模型部署', link: '/articles/ai-agent/local-llm' }
           ]
         }
       ],
-      '/articles/backend/': [
+      '/articles/cloud-native/': [
         {
-          text: '后端开发',
+          text: '云原生与DevOps',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'Node.js', link: '/articles/backend/nodejs/' },
-            { text: 'Python', link: '/articles/backend/python/' },
-            { text: '数据库', link: '/articles/backend/database/' }
+            { text: 'Kubernetes实践', link: '/articles/cloud-native/kubernetes' },
+            { text: 'GitOps工作流', link: '/articles/cloud-native/gitops' },
+            { text: 'Helm包管理', link: '/articles/cloud-native/helm' },
+            { text: 'Tilt与Skaffold', link: '/articles/cloud-native/dev-tools' },
+            { text: 'CI/CD最佳实践', link: '/articles/cloud-native/cicd' },
+            { text: '监控与可观测性', link: '/articles/cloud-native/monitoring' }
           ]
         }
       ],
-      '/articles/engineering/': [
+      '/articles/desktop/': [
         {
-          text: '工程化',
+          text: '桌面应用开发',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: 'Git', link: '/articles/engineering/git/' },
-            { text: 'Webpack', link: '/articles/engineering/webpack/' },
-            { text: 'Vite', link: '/articles/engineering/vite/' },
-            { text: 'CI/CD', link: '/articles/engineering/cicd/' }
-          ]
-        }
-      ],
-      '/notes/roadmap/': [
-        {
-          text: '学习路线',
-          collapsible: true,
-          collapsed: false,
-          items: [
-            { text: '前端学习路线', link: '/notes/roadmap/frontend.md' },
-            { text: '全栈学习路线', link: '/notes/roadmap/fullstack.md' },
-            { text: '职业发展', link: '/notes/roadmap/career.md' }
-          ]
-        }
-      ],
-      '/notes/reading/': [
-        {
-          text: '读书笔记',
-          collapsible: true,
-          collapsed: false,
-          items: [
-            { text: '技术书籍', link: '/notes/reading/tech-books.md' },
-            { text: '设计模式', link: '/notes/reading/design-patterns.md' }
+            { text: 'Tauri入门', link: '/articles/desktop/tauri-basics' },
+            { text: 'Rust与TS交互', link: '/articles/desktop/rust-ts-interop' },
+            { text: '跨平台打包', link: '/articles/desktop/packaging' },
+            { text: '性能优化', link: '/articles/desktop/performance' }
           ]
         }
       ],
       '/notes/projects/': [
         {
-          text: '项目实战',
+          text: '项目实战复盘',
           collapsible: true,
           collapsed: false,
           items: [
-            { text: '个人项目', link: '/notes/projects/personal.md' },
-            { text: '开源贡献', link: '/notes/projects/opensource.md' }
+            { text: 'OpenWork开发日志', link: '/notes/projects/openwork' },
+            { text: 'MBTI系统架构', link: '/notes/projects/mbti-system' },
+            { text: 'AI助手小程序', link: '/notes/projects/ai-assistant' },
+            { text: 'GitHub可视化', link: '/notes/projects/github-visualization' }
           ]
         }
       ]
