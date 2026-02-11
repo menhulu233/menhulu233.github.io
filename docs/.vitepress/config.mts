@@ -4,7 +4,6 @@ export default defineConfig({
   title: 'Menhulu 的博客',
   description: '记录学习心得，分享技术经验',
   lang: 'zh-CN',
-  base: '/menhulu233.github.io/',
 
   lastUpdated: true,
   cleanUrls: true,
