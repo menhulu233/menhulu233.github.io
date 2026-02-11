@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Menhulu 的博客',
+  title: '竹蔓 的博客',
   description: '记录学习心得，分享技术经验',
   lang: 'zh-CN',
 
@@ -126,7 +126,7 @@ export default defineConfig({
     // 页脚
     footer: {
       message: '学习 · 分享 · 成长',
-      copyright: 'Copyright © 2024-present Menhulu'
+      copyright: 'Copyright © 2026-present 竹蔓'
     },
 
     // 编辑链接

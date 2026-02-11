@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: Menhulu
+  name: 竹蔓
   text: 技术博客
   tagline: 记录学习心得 · 分享技术经验 · 探索技术边界
   image:
     src: /logo.svg
-    alt: Menhulu Blog
+    alt: 竹蔓 Blog
   actions:
     - theme: brand
       text: 开始浏览
